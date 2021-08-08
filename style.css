@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#scrollUp {
+    background-image: url("img/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+}
+
+
+
+
+.contain_text p {
+    line-height: 38px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.contain_text {
+    float: right;
+    width: 600px;
+    /* margin: auto; */
+}
+
+.about_img  img {
+   
+      width: 100%;
+      height: 100%;
+    }
+    
+
+    
+
+
+
+
+
+
+.contain_wrap {
+    overflow: hidden;
+    padding: 39px 0px;
+}
+
+.Header{
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 550px;
+}
+
+
+.container {
+    margin: auto;
+    width: 1170px;
+}
+.header_top {
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.logo {
+    width: 267px;
+    height: 50px;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.nav {
+    float: right;
+    width: 60%;
+    margin-top: 8px;
+}
+
+
+.nav ul {
+    list-style: none;
+    float: right;
+}
+
+
+.nav ul li {
+    display: inline-block;
+    padding: 10px 8px;
+}
+
+
+.nav ul li a {
+    font-size: 22px;
+    color: #fffefe;
+    text-decoration: none;
+    /* padding: 10px 0px; */
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.title h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.title {
+    /* padding: 33px 0px; */
+    margin-bottom: -15px;
+    padding-top: 50px;
+}
+
+
+.about_img {
+    float: left;
+    width: 500px;
+    height: 500px;
+    padding: 19px;
+    border: 2px solid #d8d8d8ad;
+    border-radius: 10px;
+}
+
+
+.contain_text {
+    /* padding: 20px; */
+    /* margin-right: 36px; */
+    /* margin-right: 50px; */
+    margin: 20px;
+    padding: 10px;
+}
+/*
+.nav ul li:hover{
+
+    border-bottom: 3px solid red;
+}
+*/
+
+#service {
+    padding: 50px 0px;
+    background-color: #030c0cd9;
+}
+
+
+.service_item p {
+    padding: 17px 70px;
+    text-align: center;
+    color: #050505;
+    /* letter-spacing: 2px; */
+    line-height: 28px;
+    font-size: 20px;
+
+}
+.service_item h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 15px;
+    color: #FF5722;
+}
+
+.service_item {
+    width: 258px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px 0px;
+    margin: 0px 15px;
+    }
+
+.service_wraper {
+    overflow: hidden;
+}
+.link {
+
+    text-align: center;
+    padding: 15px 0px;
+}
+.link a {
+
+    text-align: center; 
+    text-decoration: none;
+   
+    color:#ff5200;
+}
+#work{
+
+    padding: 50px 0px;
+}
+.work_wrap{
+    overflow: hidden;
+}
+
+.work_centent{
+
+    width: 550px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 16px;
+}
+.work_showcase{
+width: 550px;
+margin-top: 25px;
+
+margin: 0px 16px;
+float:right;
+}
+
+
+
+    .work_centent h1{
+
+            font-size: 40px;
+        font-weight: 500;
+        padding: 20px 0px;
+    }
+
+    .work_centent p {
+
+        font-size: 22px;
+    line-height: 30px;
+    margin: 50px 20px;
+    }
+
+    .work_showcase img {
+    /* width: 67%; */
+    height: 330px;
+    /* border-radius: 50%; */
+    float: right;
+    right: 63px;
+    position: relative;
+    }
+    #About{
+        background: #f2f2fe;
+}
+   
+#contact {
+    background-color: #f2f2fe;
+    padding: 18px 0px;
+}
+
+.contact_form{
+    padding: 40px 0px;
+}
+
+
+.greeting{
+    background-color: white;
+
+    text-align: center;
+    padding: 52px 0px;
+}
+
+.greeting h1{
+
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.greeting p     {
+
+        font-size: 17px; 
+        padding: 8px 0px;
+        color:#00000066
+        }
+
+
+        .address {
+            width: 400px;
+            padding: 20px 0px;
+            display: inline-block;
+        }
+
+
+   
+        .address      h2{
+
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 2.25px;
+            margin-bottom: 20px;
+}
+.address p {
+    padding-right: 86px;
+    font-size: 16px;
+    font-weight: 500;
+    color:#00000066;
+    margin-bottom: 40px;
+    line-height: 29px;
+ 
+}
+.mail_us{
+    display: inline-block;
+    width: 50%;
+}
+.mail_us .input  input{
+    height: 41px;
+    width: 42%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    margin-left: 15px;
+   
+   
+}
+
+.input {
+    margin-bottom: -10px;
+}
+
+.mail_us textarea{
+
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 0px;
+    outline: none;
+    margin-top: 25px;
+    margin-top: 55px;
+    margin-bottom: -40px;
+    margin-left: 15px;
+}
+.bottom 
+{
+    transform: translate(5px, 51px);
+    margin-bottom: 70px;
+    margin-top: 25px;
+}
+   .bottom button   {
+    background-color: #ffc300;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 64px;
+        }
+
+        .bottom button   a {
+            text-decoration: none;
+            text-align: center;
+            color:#333;
+            font-size: 18px;
+        }
+        #product_section{
+            background-image: linear-gradient(
+                135deg
+                , #492cdd 0%, #ad38e2 100%);
+                padding: 50px 0px;
+        
+
+        }
+
+ .footer_item{
+                    width: 230px;
+    display: inline-block;
+    padding: 20px;
+                }
+
+                .footer_item h2        {
+
+     font-size: 15px;
+    font-weight: 300;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+                }
+
+                .footer_item ul{
+                    list-style: none;
+                }
+              
+                    .footer_item ul li {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 10px 0px;
+                }
+
+                .footer_item ul li a {
+                    text-decoration: none;
+                    color: white;
+                    letter-spacing: 1.25px;
+                    font-size: 15px;
+                }
+
+footer{
+    padding: 37px 0px;
+}
+footer .policy{
+    width: 50%;
+    float: left;
+}
+
+footer .policy span{
+
+    font-size: 18px;
+    font-weight: 200;
+    color: #101010b3;
+}
+
+footer .icon{
+    width: 50%;
+    float: right
+}
+footer .icon ul {
+    list-style: none;
+    float: right;
+}
+footer .icon ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+footer .icon ul li i   {
+        font-size: 22px;
+        color: #101010b3;
+    }
+
+    
+        
+
+
+
+
+
+
